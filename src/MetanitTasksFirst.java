@@ -22,6 +22,7 @@ public class MetanitTasksFirst {
         else {
             System.out.println(firstNumber + " меньше " + secondNumber);
         }
+        input.close();
     }
 
     public static void task2() {
@@ -34,6 +35,7 @@ public class MetanitTasksFirst {
         else {
             System.out.println("Неизвестное число");
         }
+        input.close();
     }
 
     public static void task3() {
@@ -86,6 +88,7 @@ public class MetanitTasksFirst {
                 System.out.println("Операция неопределена");
                 break;
         }
+        input.close();
     }
 
     public static void task5() {
@@ -127,5 +130,6 @@ public class MetanitTasksFirst {
         else {
             System.out.println("Неизвестная операция");
         }
+        input.close();
     }
 }

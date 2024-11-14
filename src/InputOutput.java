@@ -22,6 +22,7 @@ public class InputOutput {
         float a = input.nextFloat();
 
         System.out.println(a);
+        input.close();
     }
 
     public static void doubleRofl() {

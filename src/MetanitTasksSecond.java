@@ -59,6 +59,7 @@ public class MetanitTasksSecond {
         }
 
         System.out.println("После " + userLength + " месяцев сумма вклада составит: " + userValue);
+        input.close();
     }
 
     private static void task4() {
@@ -78,6 +79,7 @@ public class MetanitTasksSecond {
         }
 
         System.out.println("После " + userLength + " месяцев сумма вклада составит: " + userValue);
+        input.close();
     }
 
     private static void task5() {
@@ -108,5 +110,6 @@ public class MetanitTasksSecond {
                 flag = false;
             }
         }
+        input.close();
     }
 }
