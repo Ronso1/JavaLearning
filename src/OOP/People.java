@@ -1,3 +1,5 @@
+package OOP;
+
 public class People {
     String name = "Undentified";
     int age = 0;
