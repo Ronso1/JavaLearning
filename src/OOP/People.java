@@ -1,8 +1,13 @@
 package OOP;
 
 public class People {
-    String name = "Undentified";
-    int age = 0;
+    private String name = "Undentified";
+    private int age = 0;
+    private static String message;
+
+    static {
+        message = "Hello new Person!";
+    }
 
     public People() {
 
@@ -16,5 +21,19 @@ public class People {
     public void showInfo() {
         System.out.println("Имя: " + name);
         System.out.println("Возраст: " + age);
+    }
+
+    public void registerNewPerson(String name, int age) {
+        System.out.println(message);
+        this.name = name;
+        this.age = age;
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+
+    public static void showMessage() {
+        System.out.println(message);
     }
 }
